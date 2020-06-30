@@ -1,0 +1,16 @@
+.not-found{
+    margin-top: 100px;
+    padding: 0;
+    
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+}
+
+.h1{
+    font-size: 38px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+
+}

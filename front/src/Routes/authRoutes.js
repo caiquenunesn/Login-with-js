@@ -1,0 +1,18 @@
+import React from 'react';
+import {Switch, Route } from 'react-router-dom';
+
+import Login from '../pages/Login';
+import Register from '../pages/Register';
+import NotFound from '../pages/NotFound';
+
+export default function authRoutes(){
+    return(
+        
+            <Switch>
+                <Route path="/" exact component={Login} />
+                <Route path="/register" exact component={Register} />
+                <Route component={NotFound} />
+            </Switch>
+        
+    );
+}
